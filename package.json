@@ -1,0 +1,31 @@
+{
+    "name": "sysmailenableapi",
+    "version": "1.0.1",
+    "description": "SysMailEnableAPI e uma API, que roda em Express e utiliza o repositório CtrlMailEnable para gerenciar o MailEnable de forma remota",
+    "author": "Paloma Macetko <cmacetko@gmail.com>",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "homepage": "https://github.com/cmacetko/sysmailenableapi",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cmacetko/sysmailenableapi"
+    },
+    "bugs": {
+        "url": "https://github.com/cmacetko/sysmailenableapi/issues"
+    },
+    "keywords": [
+        "MailEnable",
+        "MailEnable server"
+    ],
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "ctrlmailenable": "^1.0.2",
+        "express": "^4.17.1",
+        "express-basic-auth": "^1.2.0",
+        "path": "^0.12.7",
+        "simple-node-logger": "^18.12.24"
+    }
+}
